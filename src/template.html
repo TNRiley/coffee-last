@@ -171,7 +171,7 @@ select,input[type=search]{font:400 14.5px/1.2 "IBM Plex Sans",sans-serif;color:v
 .chip:hover{border-color:var(--ink3);color:var(--ink)}
 
 /* ---------- ghosts -------------------------------------------------- */
-.ghosts{display:grid;grid-template-columns:repeat(auto-fit,minmax(268px,1fr));gap:14px}
+.ghosts{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:14px}
 .ghost{border:1px solid var(--rule);border-radius:10px;background:var(--paper);overflow:hidden}
 .ghead{padding:11px 13px 10px;border-bottom:1px solid var(--rule);background:var(--card)}
 .ghead .gs{font:600 14px/1.3 "IBM Plex Sans",sans-serif;color:var(--ink)}
@@ -331,7 +331,7 @@ footer{padding:clamp(40px,7vh,80px) 0 70px;margin-top:clamp(36px,6vh,70px);
   </section>
 
   <section id="s4">
-    <div class="shead"><span class="sno">04</span><h2>Five real cards</h2></div>
+    <div class="shead"><span class="sno">04</span><h2 id="s4h">Real cards</h2></div>
     <div class="prose">
       <p class="lede">These are actual pages, drawn at the coordinates the transcribers clicked —
         the same numbers the order was built from, put back where they came from.</p>
@@ -347,8 +347,11 @@ footer{padding:clamp(40px,7vh,80px) 0 70px;margin-top:clamp(36px,6vh,70px);
         <div class="ghosts" id="ghosts"></div>
       </div>
       <figcaption>Each card links to its scan in NYPL Digital Collections. τ is that page's rank
-        correlation with the fitted order. Prices, where the transcriber recorded one, are in the
-        menu's own currency.</figcaption>
+        correlation with the fitted order. The bar down the left side is the same page with the
+        words taken away — just the colour of each line in turn, which is the whole argument in
+        one strip. <b>Grey lines are dishes printed on fewer than a hundred pages in the whole
+        collection</b> — too rare to earn a fitted strength, so they are drawn where they sit but
+        left uncoloured. Nothing on these cards has been moved to make the point.</figcaption>
     </figure>
   </section>
 
@@ -424,13 +427,16 @@ footer{padding:clamp(40px,7vh,80px) 0 70px;margin-top:clamp(36px,6vh,70px);
       <div class="figbody">
         <div class="figtitle">Named oyster and clam beds on the menu</div>
         <div class="figsub">Mentions per hundred dated menus in each decade, all named beds
-          combined, with the busiest beds drawn separately.</div>
+          combined, with the busiest beds drawn separately. The count of dated menus behind each
+          decade is printed under it.</div>
         <div class="scrollx" id="beds"></div>
       </div>
       <figcaption>Counts are mentions, not menus, so a card offering four beds counts four times.
         The denominator is every dated menu in the collection for that decade, printed under the
-        axis — after 1960 it is thin enough that the level should be read loosely and the
-        direction firmly.</figcaption>
+        axis. Two stretches are thin enough that only the direction should be read firmly: the
+        1920s hold 445 menus, and everything after 1960 tails away to a handful. The 1920s dip is
+        real in the data and not worth over-reading — the collection's Prohibition-era holdings are
+        both sparse and unlike its others.</figcaption>
     </figure>
   </section>
 
@@ -476,7 +482,10 @@ footer{padding:clamp(40px,7vh,80px) 0 70px;margin-top:clamp(36px,6vh,70px);
       <p><b>Spelling is not merged.</b> Names are folded only for case, accents and punctuation.
         “Blue Points”, “Bluepoints” and “Blue Point Oysters” are three dishes here, which is
         honest — they are three strings on the menus — and they land within half a point of each
-        other in the fit, which is a free check that the fitting works.</p>
+        other in the fit, which is a free check that the fitting works. Capitals are the one
+        exception, and only for display: transcribers disagreed about them, so a name written
+        entirely in capitals is title-cased before it is printed on this page. Nothing that is
+        compared, counted or fitted passes through that.</p>
       <p><b>The collection is not America.</b> It is the Buttolph collection and its successors:
         heavily New York, heavily hotel and transatlantic liner, with the Waldorf Astoria alone
         supplying <b id="l-waldorf">—</b> of the usable pages. It peaks hard in the 1900s and
@@ -530,6 +539,15 @@ function el(t, a, kids){
 }
 function tx(s, a){ return el("text", a, [String(s)]); }
 const fmt = n => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+/* Transcribers disagreed about capitals: the same dish is "Blue Points" on one
+   card and "BLUE POINTS" on the next. That is noise in the transcription, not
+   on the menu, and left alone it wrecks the small-caps setting of the card. A
+   name written entirely in capitals is title-cased for display only; nothing
+   that is ever compared, counted or fitted goes through here. */
+const SMALLWORDS = new Set(["of", "on", "the", "a", "an", "and", "with", "in", "per",
+  "au", "aux", "en", "la", "le", "les", "de", "du", "des", "or", "to", "for", "sur"]);
+const disp = s => /[a-z]/.test(s) ? s : s.toLowerCase().replace(/[^\s]+/g, (w, i) =>
+  i > 0 && SMALLWORDS.has(w) ? w : w.charAt(0).toUpperCase() + w.slice(1));
 const pct = (x, d) => (100 * x).toFixed(d === undefined ? 1 : d) + "%";
 const MONO = "IBM Plex Mono, ui-monospace, monospace";
 
@@ -553,27 +571,62 @@ const TMAX = ORDER[0].t, TMIN = ORDER[ORDER.length - 1].t;
    appears - in the card, in a ghost, in the duel. Interpolated in JS from the
    two theme tokens rather than with color-mix(), because these values go into
    SVG fill attributes and are recomputed on every theme change. */
-let ENDS = [[47, 107, 122], [138, 74, 30]];
+/* Place in the meal is sequential, not diverging, so this is a sequential ramp.
+   Interpolating the two end colours through RGB sent the middle of the menu
+   through grey - soup and the roast came out muddier than either end, which is
+   exactly backwards. Interpolating in HSL along the short way round the wheel
+   keeps lightness and chroma flat, so every dish on the card has the same
+   contrast against the paper and only the hue says where it sits: teal at the
+   oysters, olive through the middle of the meal, brown at the coffee. */
+function rgb2hsl([r, g, b]){
+  r /= 255; g /= 255; b /= 255;
+  const mx = Math.max(r, g, b), mn = Math.min(r, g, b), d = mx - mn;
+  const l = (mx + mn) / 2;
+  if (!d) return [0, 0, l];
+  const s = d / (1 - Math.abs(2 * l - 1));
+  const h = mx === r ? ((g - b) / d + (g < b ? 6 : 0))
+          : mx === g ? (b - r) / d + 2 : (r - g) / d + 4;
+  return [h * 60, s, l];
+}
+let ENDS = [[193, .45, .33], [27, .64, .33]];
 function readEnds(){
   const cs = getComputedStyle(document.documentElement);
   const parse = name => {
     const v = cs.getPropertyValue(name).trim();
     const m = /^#([0-9a-f]{6})$/i.exec(v);
     if (m){
-      const h = parseInt(m[1], 16);
-      return [(h >> 16) & 255, (h >> 8) & 255, h & 255];
+      const n = parseInt(m[1], 16);
+      return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
     }
     const r = /rgba?\(\s*([\d.]+)[\s,]+([\d.]+)[\s,]+([\d.]+)/i.exec(v);
     return r ? [+r[1], +r[2], +r[3]] : null;
   };
   const a = parse("--top"), b = parse("--bot");
-  if (a && b) ENDS = [a, b];
+  if (a && b) ENDS = [rgb2hsl(a), rgb2hsl(b)];
+}
+/* Position on the ramp is a dish's RANK, not its raw strength. The strengths
+   have long tails - Johannis water sits at -6.9, four points below anything
+   near it - so a linear map on strength squeezed 90% of the menu into the
+   middle of the hue range and the card came out uniformly green. Ranking
+   spreads the colour by population, which is what the figure is for. */
+const THETAS = ORDER.map(e => e.t);                    /* descending */
+function rankOf(t){
+  let lo = 0, hi = THETAS.length;
+  while (lo < hi){
+    const mid = (lo + hi) >> 1;
+    if (THETAS[mid] > t) lo = mid + 1; else hi = mid;
+  }
+  return lo;
 }
 function shade(t){
-  const u = Math.max(0, Math.min(1, (TMAX - t) / (TMAX - TMIN)));
+  const u = Math.max(0, Math.min(1, rankOf(t) / (THETAS.length - 1)));
   const [a, b] = ENDS;
-  const c = i => Math.round(Math.sqrt((1 - u) * a[i] * a[i] + u * b[i] * b[i]));
-  return "rgb(" + c(0) + "," + c(1) + "," + c(2) + ")";
+  let dh = b[0] - a[0];
+  if (dh > 180) dh -= 360; else if (dh < -180) dh += 360;   /* the short way */
+  const h = (a[0] + dh * u + 360) % 360;
+  const s = (a[1] + (b[1] - a[1]) * u) * 100;
+  const l = (a[2] + (b[2] - a[2]) * u) * 100;
+  return "hsl(" + h.toFixed(1) + " " + s.toFixed(1) + "% " + l.toFixed(1) + "%)";
 }
 
 /* ── §1 the card ─────────────────────────────────────────────────────── */
@@ -615,7 +668,7 @@ function buildCard(){
       btn.setAttribute("aria-current", picked === e.k ? "true" : "false");
       const pip = document.createElement("span");
       pip.className = "pip"; pip.style.background = shade(e.t);
-      const nm = document.createElement("span"); nm.className = "nm"; nm.textContent = e.n;
+      const nm = document.createElement("span"); nm.className = "nm"; nm.textContent = disp(e.n);
       btn.appendChild(pip); btn.appendChild(nm);
       const dots = document.createElement("span"); dots.className = "dots";
       btn.appendChild(dots);
@@ -631,7 +684,7 @@ function showDish(e){
   const i = IDX.get(e.k);
   const host = document.getElementById("aside");
   host.textContent = "";
-  const h = document.createElement("h3"); h.textContent = e.n;
+  const h = document.createElement("h3"); h.textContent = disp(e.n);
   const sub = document.createElement("div"); sub.className = "sub";
   const band = D.bands.find(b => e.t >= b.lo && e.t < b.hi);
   sub.textContent = band ? band.label : "on the card";
@@ -665,7 +718,7 @@ function showDish(e){
       const L = document.createElement("span");
       L.appendChild(document.createTextNode(label));
       L.appendChild(document.createElement("br"));
-      const nb = document.createElement("b"); nb.textContent = ORDER[o.j].n;
+      const nb = document.createElement("b"); nb.textContent = disp(ORDER[o.j].n);
       L.appendChild(nb);
       const R = document.createElement("span");
       R.className = "mono";
@@ -694,7 +747,13 @@ document.getElementById("b-str").onclick = e => {
 /* ── §2 the duel ─────────────────────────────────────────────────────── */
 const selA = document.getElementById("dA"), selB = document.getElementById("dB");
 (function(){
-  const names = ORDER.map((e, i) => [e.n, i]).sort((a, b) => a[0].localeCompare(b[0]));
+  /* A handful of transcribed "names" are ditto marks rather than dishes ('" au
+     gratin'). They stay in the fit - dropping them would change every number -
+     but they sort to the end so the list does not open on one. */
+  const names = ORDER.map((e, i) => [disp(e.n), i]).sort((a, b) => {
+    const la = /^[A-Za-z]/.test(a[0]), lb = /^[A-Za-z]/.test(b[0]);
+    return la === lb ? a[0].localeCompare(b[0]) : (la ? -1 : 1);
+  });
   [selA, selB].forEach(s => {
     names.forEach(([n, i]) => {
       const o = document.createElement("option"); o.value = i; o.textContent = n;
@@ -725,9 +784,9 @@ function duel(){
     if (col) b.style.color = col;
     return b;
   };
-  head.appendChild(strong(first.n, shade(first.t)));
+  head.appendChild(strong(disp(first.n), shade(first.t)));
   head.appendChild(document.createTextNode(" is printed above "));
-  head.appendChild(strong(second.n, shade(second.t)));
+  head.appendChild(strong(disp(second.n), shade(second.t)));
   head.appendChild(document.createTextNode(" on "));
   head.appendChild(strong(pct(share, 0)));
   head.appendChild(document.createTextNode(p
@@ -743,8 +802,8 @@ function duel(){
   host.appendChild(bar);
   const lg = document.createElement("div"); lg.className = "splegend";
   const l1 = document.createElement("span"), l2 = document.createElement("span");
-  l1.style.color = shade(first.t); l1.textContent = first.n + " first";
-  l2.style.color = shade(second.t); l2.textContent = second.n + " first";
+  l1.style.color = shade(first.t); l1.textContent = disp(first.n) + " first";
+  l2.style.color = shade(second.t); l2.textContent = disp(second.n) + " first";
   lg.appendChild(l1); lg.appendChild(l2);
   host.appendChild(lg);
   const note = document.createElement("p");
@@ -771,7 +830,7 @@ const MATCHES = [
     if (ia === undefined || ib === undefined) return;
     const btn = document.createElement("button");
     btn.className = "chip"; btn.type = "button";
-    btn.textContent = ORDER[ia].n + " vs " + ORDER[ib].n;
+    btn.textContent = disp(ORDER[ia].n) + " vs " + disp(ORDER[ib].n);
     btn.onclick = () => { selA.value = ia; selB.value = ib; duel(); };
     host.appendChild(btn);
   });
@@ -850,24 +909,34 @@ function drawGhosts(){
     }
     h.appendChild(gs); h.appendChild(gm);
     box.appendChild(h);
-    /* Drawn at the recorded coordinates. Height follows the number of dishes so
-       the lines do not collide on a crowded card. */
-    const W = 420, H = Math.max(300, 18 * g.items.length + 40);
+    /* Drawn at the recorded coordinates, using the full width: menus print
+       several dishes side by side on one line, so those share a y and are told
+       apart only by x. Squeezing x was what made these collide. Where two
+       labels still touch, the card really was that crowded. */
+    const n = g.items.length;
+    const W = 760, PAD = 10, H = Math.max(260, 14.5 * n + 34);
     const s = el("svg", {viewBox: `0 0 ${W} ${H}`, width: "100%", role: "img",
-      "aria-label": "The dishes of this menu page drawn at their transcribed positions, coloured by their place in the fitted order"});
+      "aria-label": "The dishes of this menu page drawn at their transcribed positions, coloured by their place in the fitted order, running from the top of the menu to the foot"});
     const ys = g.items.map(it => it.y), y0 = Math.min(...ys), y1 = Math.max(...ys);
     const span = Math.max(1e-6, y1 - y0);
+    const yy = v => 20 + ((v - y0) / span) * (H - 34);
+    /* a spine down the left, shaded by each dish in turn: the gradient this
+       figure exists to show, with the words taken away */
+    g.items.forEach((it, i) => {
+      if (it.r === null) return;
+      const a = yy(it.y), b = i + 1 < n ? yy(g.items[i + 1].y) : H - 14;
+      s.appendChild(el("rect", {x: 0, y: a - 2, width: 4,
+        height: Math.max(2, b - a + 2), fill: shade(it.r)}));
+    });
     g.items.forEach(it => {
-      const x = 12 + it.x * (W - 150);
-      const y = 22 + ((it.y - y0) / span) * (H - 42);
-      const fill = it.r === null ? "var(--ink3)" : shade(it.r);
-      const t = tx(it.n.length > 34 ? it.n.slice(0, 33) + "…" : it.n,
-        {x: x, y: y, fill: fill, "font-size": 11.5,
+      const nm = disp(it.n);
+      const t = tx(nm.length > 30 ? nm.slice(0, 29) + "…" : nm,
+        {x: PAD + 8 + it.x * (W - PAD - 150), y: yy(it.y),
+         fill: it.r === null ? "var(--ink2)" : shade(it.r), "font-size": 11,
          "font-family": "Fraunces, Georgia, serif"});
-      if (it.r === null) t.setAttribute("opacity", ".55");
+      if (it.r === null) t.setAttribute("opacity", ".6");
+      else t.setAttribute("font-weight", "500");
       s.appendChild(t);
-      if (it.p) s.appendChild(tx(it.p, {x: W - 10, y: y, "text-anchor": "end",
-        fill: "var(--ink3)", "font-size": 10, "font-family": MONO}));
     });
     box.appendChild(s);
     host.appendChild(box);
@@ -889,13 +958,15 @@ function drawSlope(){
   const W = 900, T = 42, B = 34, HH = 430;
   const s = el("svg", {viewBox: `0 0 ${W} ${HH}`, width: "100%", role: "img",
     "aria-label": "Median place on the card in 1880 to 1915 against 1930 to 2000, for the dishes that moved most and for a control group"});
-  const xa = 250, xb = 640;
+  const xa = 250, xb = 610;
   const yy = v => T + v * (HH - T - B);
+  /* Gridlines only. The tick values used to sit just left of the axis and read
+     as part of whatever dish name ended there; every row prints its own pair of
+     numbers on the right, so they were redundant as well as confusing. */
   [0, .25, .5, .75, 1].forEach(v => {
     s.appendChild(el("line", {x1: xa, x2: xb, y1: yy(v), y2: yy(v),
-      stroke: "var(--rule)", "stroke-width": 1, "stroke-dasharray": v === 0 || v === 1 ? "" : "3 4"}));
-    s.appendChild(tx(v.toFixed(2), {x: xa - 10, y: yy(v) + 4, "text-anchor": "end",
-      fill: "var(--ink3)", "font-size": 11, "font-family": MONO}));
+      stroke: "var(--rule)", "stroke-width": 1,
+      "stroke-dasharray": v === 0 || v === 1 ? "" : "3 4"}));
   });
   s.appendChild(tx("1880–1915", {x: xa, y: T - 16, "text-anchor": "middle",
     fill: "var(--ink2)", "font-size": 12.5, "font-family": MONO}));
@@ -905,7 +976,29 @@ function drawSlope(){
     "font-size": 11, "font-family": MONO}));
   s.appendChild(tx("foot of the card", {x: 6, y: yy(1) + 4, fill: "var(--bot)",
     "font-size": 11, "font-family": MONO}));
-  rows.forEach(r => {
+  /* Labels get nudged apart so they can be read; the dots and the lines never
+     move. Greedy single pass down, then back up off the bottom edge. */
+  function spread(ys, gap, lo, hi){
+    const idx = ys.map((v, i) => i).sort((a, b) => ys[a] - ys[b]);
+    const out = ys.slice();
+    let prev = -Infinity;
+    idx.forEach(i => { out[i] = Math.max(ys[i], prev + gap); prev = out[i]; });
+    let over = out[idx[idx.length - 1]] - hi;
+    if (over > 0){
+      prev = Infinity;
+      for (let k = idx.length - 1; k >= 0; k--){
+        const i = idx[k];
+        out[i] = Math.min(out[i], prev - gap, hi);
+        prev = out[i];
+      }
+    }
+    idx.forEach(i => { out[i] = Math.max(out[i], lo); });
+    return out;
+  }
+  const GAP = 14.5;
+  const leftY = spread(rows.map(r => yy(r.early) + 4), GAP, T, HH - B);
+  const rightY = spread(rows.map(r => yy(r.late) + 4), GAP, T, HH - B);
+  rows.forEach((r, i) => {
     const isCtl = CONTROL.has(r.k);
     const col = isCtl ? "var(--ink3)" : (r.d < 0 ? "var(--top)" : "var(--bot)");
     s.appendChild(el("line", {x1: xa, y1: yy(r.early), x2: xb, y2: yy(r.late),
@@ -913,11 +1006,18 @@ function drawSlope(){
       "stroke-dasharray": isCtl ? "4 4" : "", opacity: isCtl ? .8 : .95}));
     [[xa, r.early], [xb, r.late]].forEach(([x, v]) =>
       s.appendChild(el("circle", {cx: x, cy: yy(v), r: isCtl ? 3 : 4, fill: col})));
-    s.appendChild(tx(r.name + (isCtl ? "  (control)" : ""),
-      {x: xa - 42, y: yy(r.early) + 4, "text-anchor": "end", fill: col,
+    /* a hairline from the nudged label back to the dot it belongs to */
+    if (Math.abs(leftY[i] - (yy(r.early) + 4)) > 2)
+      s.appendChild(el("line", {x1: xa - 34, y1: leftY[i] - 4, x2: xa - 4, y2: yy(r.early),
+        stroke: col, "stroke-width": 1, opacity: .45}));
+    if (Math.abs(rightY[i] - (yy(r.late) + 4)) > 2)
+      s.appendChild(el("line", {x1: xb + 4, y1: yy(r.late), x2: xb + 9, y2: rightY[i] - 4,
+        stroke: col, "stroke-width": 1, opacity: .45}));
+    s.appendChild(tx(disp(r.name) + (isCtl ? "  (control)" : ""),
+      {x: xa - 40, y: leftY[i], "text-anchor": "end", fill: col,
        "font-size": 12.5, "font-weight": isCtl ? 400 : 500}));
-    s.appendChild(tx(r.late.toFixed(2), {x: xb + 12, y: yy(r.late) + 4, fill: col,
-      "font-size": 11.5, "font-family": MONO}));
+    s.appendChild(tx(r.early.toFixed(2) + " → " + r.late.toFixed(2),
+      {x: xb + 12, y: rightY[i], fill: col, "font-size": 11.5, "font-family": MONO}));
   });
   host.appendChild(s);
 }
@@ -966,7 +1066,7 @@ function drawTrack(){
     "font-size": 10.5, "font-family": MONO}));
   DEC.forEach((d, i) => {
     if (i % 2) return;
-    s.appendChild(tx(String(d).slice(2) + "0s", {x: xx(i), y: HH - B + 17,
+    s.appendChild(tx(String(d) + "s", {x: xx(i), y: HH - B + 17,
       "text-anchor": "middle", fill: "var(--ink3)", "font-size": 11, "font-family": MONO}));
   });
   const cols = ["var(--top)", "var(--bot)", "var(--ink2)"];
@@ -986,7 +1086,7 @@ function drawTrack(){
       if (v === null) return;
       s.appendChild(el("circle", {cx: xx(i), cy: yy(v), r: 3.6, fill: col}));
     });
-    if (lastI >= 0) s.appendChild(tx(t.name, {x: xx(lastI) + 10, y: yy(t.s[lastI]) + 4,
+    if (lastI >= 0) s.appendChild(tx(disp(t.name), {x: xx(lastI) + 10, y: yy(t.s[lastI]) + 4,
       fill: col, "font-size": 12.5, "font-weight": 500}));
   });
   host.appendChild(s);
@@ -1053,21 +1153,17 @@ function drawBeds(){
     s.appendChild(el("path", {d: p, fill: "none", stroke: "var(--bot)", "stroke-width": 1.5,
       opacity: .55 - ri * .08}));
     const li = rp.reduce((best, v, i) => v !== null && v > (rp[best] || -1) ? i : best, 0);
-    s.appendChild(tx(row.name, {x: xx(li) + 6, y: yy(rp[li]) - 6, fill: "var(--bot)",
+    s.appendChild(tx(disp(row.name), {x: xx(li) + 6, y: yy(rp[li]) - 6, fill: "var(--bot)",
       "font-size": 10.5, "font-family": MONO, opacity: .95}));
   });
   s.appendChild(el("line", {x1: L, x2: W - R, y1: HH - B, y2: HH - B,
     stroke: "var(--ink3)", "stroke-width": 1}));
   DEC.forEach((dd, i) => {
-    s.appendChild(tx(String(dd).slice(2) + "0s", {x: xx(i), y: HH - B + 17,
+    s.appendChild(tx(String(dd) + "s", {x: xx(i), y: HH - B + 17,
       "text-anchor": "middle", fill: "var(--ink3)", "font-size": 11, "font-family": MONO}));
     s.appendChild(tx(fmt(menus[i]), {x: xx(i), y: HH - B + 34, "text-anchor": "middle",
       fill: "var(--ink3)", "font-size": 9.5, "font-family": MONO, opacity: .85}));
   });
-  s.appendChild(tx("dated menus in the decade", {x: L - 9, y: HH - B + 34,
-    "text-anchor": "end", fill: "var(--ink3)", "font-size": 9.5, "font-family": MONO}));
-  s.appendChild(tx("per 100 menus", {x: L - 9, y: T + 2, "text-anchor": "end",
-    fill: "var(--ink3)", "font-size": 10, "font-family": MONO}));
   host.appendChild(s);
 }
 
@@ -1080,14 +1176,14 @@ function drawPrices(){
   const hr = document.createElement("tr");
   const th0 = document.createElement("th"); th0.textContent = "Dish"; hr.appendChild(th0);
   D.decades.forEach(d => {
-    const th = document.createElement("th"); th.textContent = String(d).slice(2) + "0s";
+    const th = document.createElement("th"); th.textContent = String(d) + "s";
     hr.appendChild(th);
   });
   thead.appendChild(hr); t.appendChild(thead);
   const tb2 = document.createElement("tbody");
   D.prices.forEach(row => {
     const tr = document.createElement("tr");
-    const td0 = document.createElement("td"); td0.className = "k"; td0.textContent = row.name;
+    const td0 = document.createElement("td"); td0.className = "k"; td0.textContent = disp(row.name);
     tr.appendChild(td0);
     row.med.forEach(v => {
       const td = document.createElement("td");
@@ -1125,6 +1221,11 @@ setText("r-rand", RIG.tauRandMedian.toFixed(2));
 setText("r-neg", RIG.tauNeg.toFixed(1) + "%");
 setText("r-high", RIG.tauHigh.toFixed(0) + "%");
 setText("m-count", fmt(D.movers.count));
+(function(){
+  const words = ["No", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight"];
+  const n = D.ghosts.length;
+  setText("s4h", (words[n] || n) + " real cards");
+})();
 setText("l-pairs", fmt(RIG.fitPairs));
 setText("l-multi", fmt(COV.droppedMulti));
 setText("l-pages", fmt(COV.usablePages));

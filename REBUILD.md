@@ -260,3 +260,5 @@ python src/inject.py          # -> index.html, wrapped and catalog-linked
 order — the thing to read first if a number looks wrong, and what `card_keys.txt` was picked from.
 
 Raw CSVs and `payload.json` are gitignored; the scripts refetch and regenerate them.
+`order_dump.txt` *is* committed — it is small, it is the primary result, and it is the fastest way
+to check a rebuild against this table without rerunning anything.
