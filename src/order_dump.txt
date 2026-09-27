@@ -1,0 +1,1276 @@
+   0  +7.32   285  Bluepoints
+   1  +6.79   540  Cape Cods
+   2  +6.75   166  Grape Fruit Cocktail
+   3  +6.68   389  Cotuits
+   4  +6.60   440  Lynnhavens
+   5  +6.59   132  Bluepoint Oysters
+   6  +6.57  1203  BLUE POINTS
+   7  +6.57   232  Cherry Stones
+   8  +6.52   128  Buzzard Bays
+   9  +6.51   128  Blue-Points, half shell
+  10  +6.47   343  Grapefruit Supreme
+  11  +6.42   200  Cotuit oysters
+  12  +6.25   227  Huitres
+  13  +6.23   108  Little Necks clams
+  14  +6.22   116  LYNNHAVEN OYSTERS
+  15  +6.09   324  Cherry Stone clams
+  16  +5.94   153  Rockaways
+  17  +5.92   747  Little Necks
+  18  +5.92   125  Cream Stew
+  19  +5.89   412  Cape Cod Oysters
+  20  +5.81   123  Milk stew
+  21  +5.65   491  Cherrystones
+  22  +5.53   380  crab meat cocktail
+  23  +5.53  1505  Little Neck clams
+  24  +5.47   582  Cocktail Sauce
+  25  +5.38   178  Clams
+  26  +5.28   570  Blue Point Oysters
+  27  +5.24   725  Crab Flake Cocktail
+  28  +5.16   311  Clam Juice Cocktail
+  29  +5.14  1074  Lobster Cocktail
+  30  +4.99   125  Healy's Hors d'Oeuvres
+  31  +4.91   481  Cherrystone Clams
+  32  +4.89   397  Caviar, Special Importation
+  33  +4.89   148  OYSTERS ON HALF SHELL
+  34  +4.88   125  Bouillon en Tasse
+  35  +4.87   176  Canape of Caviar
+  36  +4.77   141  Buffet Russe
+  37  +4.76   408  Fruit Cocktail
+  38  +4.75   102  Kraftbruhe
+  39  +4.67   562  Oyster cocktail
+  40  +4.65   100  Bisque of Lobster
+  41  +4.58   215  Canape of Anchovies
+  42  +4.50   128  Oysters a la Poulette
+  43  +4.44   131  Steamed clams
+  44  +4.38   223  Fresh Shrimp Cocktail
+  45  +4.37   248  Fillets of Herring
+  46  +4.36   201  Oyster Fry
+  47  +4.35   364  Clam cocktail
+  48  +4.33   218  Fried Clams
+  49  +4.29   150  Caviar Canape
+  50  +4.28   146  Little Neck Clam Cocktail
+  51  +4.26   227  Sauerkraut Juice
+  52  +4.20   153  Broiled oysters
+  53  +4.18   104  Little Neck clams, half shell
+  54  +4.14   112  Box Stew
+  55  +4.14   298  Clam juice
+  56  +4.14   484  Beluga Caviar
+  57  +4.12   103  Sweet pickled mangoes
+  58  +4.09   252  Cervelat
+  59  +4.07   153  Assorted hors-d'oeuvres
+  60  +4.07   540  Oyster Stew
+  61  +4.06   147  Antipasti
+  62  +4.06   404  Green olives
+  63  +4.03   141  Crabflake Cocktail
+  64  +3.97   237  Lyon Sausage
+  65  +3.96   116  Mackerel in Oil
+  66  +3.96   179  Clear green turtle
+  67  +3.95   120  Clam Broth in cup
+  68  +3.85   121  Cream of celery
+  69  +3.82   108  Pickled Figs
+  70  +3.81   138  Consomme in cup
+  71  +3.80   443  Salted Nuts
+  72  +3.80   334  Tomato Juice Cocktail
+  73  +3.79   161  Crabmeat Cocktail
+  74  +3.78   251  Bismarck Herring
+  75  +3.77   365  Stuffed celery
+  76  +3.77   144  French Sardines
+  77  +3.75   600  Shrimp Cocktail
+  78  +3.74   108  Cream of asparagus
+  79  +3.72   108  Hors d'Oeuvres
+  80  +3.70   172  India Relish
+  81  +3.70   404  Radis
+  82  +3.66   245  Chutney,
+  83  +3.61   889  Tomato Juice
+  84  +3.58   235  Carciofini
+  85  +3.58   810  Ripe Olives
+  86  +3.57   131  Vermicelli Soup
+  87  +3.57   204  Bouillon
+  88  +3.56   119  Fruit Supreme
+  89  +3.54   649  Sweet Pickles
+  90  +3.49   502  Celeri
+  91  +3.48   225  Croute-au-Pot
+  92  +3.48   334  Clam Stew
+  93  +3.48   200  Dill Pickle
+  94  +3.45   115  Antipasto
+  95  +3.43   184  Chicken gumbo
+  96  +3.40   198  Sardellen
+  97  +3.40   110  Hors d'oeuvres varies
+  98  +3.37   492  Clam Chowder
+  99  +3.37   149  Marinated Herring
+ 100  +3.36   256  Julienne Soup
+ 101  +3.35   237  Chilled Tomato Juice
+ 102  +3.34   317  Pim-olas
+ 103  +3.33   149  Mongole soup
+ 104  +3.32   176  Pea Soup
+ 105  +3.29   147  Spring Onions
+ 106  +3.29   167  Puree of Tomatoes
+ 107  +3.28   267  Hearts of Celery
+ 108  +3.27   908  Consomme
+ 109  +3.27   104  Scallions
+ 110  +3.25   450  Tomato Soup
+ 111  +3.23   181  Cup consomme
+ 112  +3.21   131  Consomme en Tasse
+ 113  +3.20   168  Chicken Soup
+ 114  +3.19   103  Clam Stew with Cream
+ 115  +3.19  4375  Celery
+ 116  +3.19  4473  Olives
+ 117  +3.16   160  Tomato Broth
+ 118  +3.16   121  Caneton
+ 119  +3.14   110  Cup of Clam Broth
+ 120  +3.14   109  Consomme Brunoise
+ 121  +3.14   156  Chicken Okra
+ 122  +3.12   232  Clear green turtle soup
+ 123  +3.11   272  Stuffed Mangoes
+ 124  +3.10   212  English Sole, Fried
+ 125  +3.10   111  Manhattan clam chowder
+ 126  +3.10   325  Mock turtle soup
+ 127  +3.09   146  Mock Turtle
+ 128  +3.08   142  Stewed Oysters
+ 129  +3.07   113  Petite marmite soup
+ 130  +3.06   118  Consomme Royal
+ 131  +3.06   206  Consomme Julienne
+ 132  +3.05   102  Anchovies in Oil
+ 133  +3.03   277  Chicken consomme
+ 134  +3.03   116  Consomme with rice
+ 135  +3.02   129  Anchovies on Toast
+ 136  +3.01   324  Chicken okra soup
+ 137  +3.00   116  Cup chicken broth
+ 138  +3.00   109  Gumbo, Creole
+ 139  +2.98   277  Clam Fritters
+ 140  +2.97   115  Terrapin, Maryland
+ 141  +2.97   178  Puree of Split Peas
+ 142  +2.97   126  Mongole
+ 143  +2.96   697  CLAM BROTH
+ 144  +2.96  1133  SALTED ALMONDS
+ 145  +2.95   341  Petite marmite
+ 146  +2.94   353  Fried Oyster Crabs
+ 147  +2.94   211  Pin Money Pickles
+ 148  +2.93  3209  Radishes
+ 149  +2.92   131  Fresh Fruit Cocktail
+ 150  +2.91   176  Consomme Vermicelli
+ 151  +2.90   149  Cup Clam Broth
+ 152  +2.90   280  Oysters
+ 153  +2.90   274  Fried Soft Shell Crabs
+ 154  +2.88   608  Stuffed olives
+ 155  +2.88   957  Queen olives
+ 156  +2.88   150  Mangoes
+ 157  +2.88   391  Green Turtle Soup
+ 158  +2.87   261  Vegetable Soup
+ 159  +2.85   506  Chicken broth
+ 160  +2.85   125  Fresh Fruit Cup
+ 161  +2.85   235  Amandes salees
+ 162  +2.84   121  Consomme Celestine
+ 163  +2.83   105  Amandes
+ 164  +2.82  1290  Chow chow
+ 165  +2.79   173  Terrapin
+ 166  +2.79   236  Russian caviar
+ 167  +2.79   173  Oyster Patties
+ 168  +2.78   222  Brook Trout
+ 169  +2.75   470  Fried oysters
+ 170  +2.75   140  Caviar on Toast
+ 171  +2.72   306  Anchovy Salad
+ 172  +2.69   331  Dill Pickles
+ 173  +2.69   148  Gumbo
+ 174  +2.69   234  Fried scallops, tartar sauce
+ 175  +2.67   184  Julienne
+ 176  +2.65   174  Saucisson de Lyon
+ 177  +2.62   159  Beef consomme
+ 178  +2.61   113  English Sole
+ 179  +2.59   132  Broiled Oysters, Celery sauce
+ 180  +2.58   158  Young Onions
+ 181  +2.55   163  Whitebait
+ 182  +2.54   139  Chicken broth with rice
+ 183  +2.52   148  Cold Consomme
+ 184  +2.51   305  Pineapple Juice
+ 185  +2.50   107  Broiled Bluefish, Maitre d'Hotel
+ 186  +2.50   100  Gumbo Creole
+ 187  +2.48   465  Half Grapefruit
+ 188  +2.47   147  Green Onions
+ 189  +2.45   166  Westphalían Ham
+ 190  +2.44   126  Dindonneau
+ 191  +2.44   183  Salami
+ 192  +2.43   107  Beef Broth
+ 193  +2.43   108  Turkey, Giblet sauce
+ 194  +2.42   648  Smoked Salmon
+ 195  +2.42   149  Trout
+ 196  +2.41   117  duckling
+ 197  +2.40   183  Spanish olives
+ 198  +2.35   197  Onion Soup au gratin
+ 199  +2.34   416  Gherkins
+ 200  +2.34   123  Steamed hard clams
+ 201  +2.32   146  Capon
+ 202  +2.31   133  Broiled Sea Trout
+ 203  +2.29   354  Grapefruit Juice
+ 204  +2.28   144  Whole Cold Boiled Lobster
+ 205  +2.26   179  Cocktail
+ 206  +2.25   173  Fried Scallops
+ 207  +2.24   132  Roast Chicken (half)
+ 208  +2.23   168  Apple Juice
+ 209  +2.21   111  Spring Turkey, Giblet sauce
+ 210  +2.21   191  Soft Shell Crabs
+ 211  +2.21   142  Turkey, Cranberry Sauce
+ 212  +2.19   177  Roast Spring Lamb,
+ 213  +2.19   105  Roast Spring Turkey, Giblet sauce
+ 214  +2.18   100  Fruit Cup
+ 215  +2.17   118  Roast Potatoes
+ 216  +2.16   224  Cream of tomato soup
+ 217  +2.16   345  Pickled Walnuts
+ 218  +2.15   130  Prune Juice
+ 219  +2.14   331  Mutton
+ 220  +2.14   326  Mixed Grill
+ 221  +2.12   107  RELISHES
+ 222  +2.12   121  Crab Meat au Gratin, Green Peppers
+ 223  +2.09   119  Roast ribs of beef
+ 224  +2.07   126  FINNAN HADDIE AU GRATIN
+ 225  +2.04   167  Roast Spring Lamb, Mint Sauce
+ 226  +2.04   130  Soft Shell crabs, Tartar sauce
+ 227  +2.02   119  CURRIED SHRIMPS
+ 228  +2.01   135  Roast capon
+ 229  +2.01  1411  Sardines
+ 230  +2.00   251  Corned Beef and Cabbage
+ 231  +1.98   120  Galantine of capon
+ 232  +1.98   102  Guinea Hen
+ 233  +1.98   170  Chicken (Half)
+ 234  +1.97   179  Milk fed chicken
+ 235  +1.97   156  Broiled Squab Duckling
+ 236  +1.96   132  Broiled Fresh Mackerel
+ 237  +1.96   421  Anchovies
+ 238  +1.95   185  ROAST TURKEY, CRANBERRY SAUCE
+ 239  +1.95   286  Prime ribs of beef
+ 240  +1.95   198  Squab Duckling
+ 241  +1.95   113  Broiled Lobster
+ 242  +1.94   191  Spring Turkey (half)
+ 243  +1.93   157  Broiled spring turkey (half)
+ 244  +1.90   159  Long Island Duckling
+ 245  +1.89   166  Guinea Chicken
+ 246  +1.89   478  Caviar
+ 247  +1.88   392  Roast Mutton
+ 248  +1.86   146  Ribs of prime beef
+ 249  +1.85   110  Beef tea
+ 250  +1.85   117  Sirloin steak (for 2)
+ 251  +1.84   201  Halibut steak
+ 252  +1.78   349  Spring Lamb
+ 253  +1.77   296  Poussin
+ 254  +1.76   386  Roast chicken
+ 255  +1.76   152  Lamb, mint sauce
+ 256  +1.76   306  Royal Squab
+ 257  +1.75   192  Broiled Squab
+ 258  +1.75   226  Ribs of beef
+ 259  +1.74   100  Ribs of prime beef au jus
+ 260  +1.74   355  Prime ribs of beef au jus
+ 261  +1.73   460  Squab Chicken
+ 262  +1.73   161  BROILED LIVE LOBSTER
+ 263  +1.72   428  Pickles
+ 264  +1.72   149  Golden plover
+ 265  +1.72   103  Pigeonneau
+ 266  +1.71   122  Teal duck
+ 267  +1.71   125  Special Spaghetti with Fresh Mushrooms
+ 268  +1.71   173  Roast Lamb, Mint Sauce
+ 269  +1.70   130  broiled guinea chicken
+ 270  +1.70   160  Spanish mackerel
+ 271  +1.67   329  Filet Mignon
+ 272  +1.66   225  Red Head Duck
+ 273  +1.66   509  Squab
+ 274  +1.65   125  Healy's special individual chicken pie
+ 275  +1.65   181  Canvas Back Duck
+ 276  +1.64   101  Breast of chicken
+ 277  +1.63   153  Lobster, Newburg
+ 278  +1.63   102  Striped bass
+ 279  +1.63   152  Fresh mushrooms
+ 280  +1.61   224  Lobster a la Newburg
+ 281  +1.61   132  Soup du Jour
+ 282  +1.61   103  G. H. Mumm & Co., Extra Dry
+ 283  +1.61   412  Mallard Duck
+ 284  +1.61   173  Venison
+ 285  +1.60   312  Mixed-pickles
+ 286  +1.59   358  spring lamb, mint sauce
+ 287  +1.57   118  Salmon
+ 288  +1.56   506  Plover
+ 289  +1.56   191  Ruddy Duck
+ 290  +1.53   124  broiled shad
+ 291  +1.53   128  Baked Pork and Beans
+ 292  +1.52   155  Fresh Mushrooms Saute
+ 293  +1.51   107  Jumbo Squab
+ 294  +1.50   186  Lobster Newburg
+ 295  +1.50   122  Halibut
+ 296  +1.50   391  Small Steak
+ 297  +1.49   160  Spring chicken
+ 298  +1.48   171  Irish stew
+ 299  +1.45   324  Scotch grouse
+ 300  +1.45   360  English pheasant
+ 301  +1.45   161  Oatmeal Porridge
+ 302  +1.45   279  Broiled Chicken (Half)
+ 303  +1.44   187  Fresh Mackerel
+ 304  +1.44   105  Roast ribs of prime beef
+ 305  +1.43   176  Squab Chicken (half)
+ 306  +1.43   380  Red Leg Partridge
+ 307  +1.42   251  Roast Turkey
+ 308  +1.42   217  Pickled onions
+ 309  +1.42   320  Table Celery
+ 310  +1.38   240  Broiled bluefish
+ 311  +1.33  1047  Cucumbers
+ 312  +1.33   223  Roast Lamb
+ 313  +1.33   155  Sea bass
+ 314  +1.32   351  Broiled Chicken
+ 315  +1.32   120  Chicken and Ham Pie
+ 316  +1.31   131  Roast Prime Ribs of Beef
+ 317  +1.31   133  Roast Prime Ribs of Beef au jus
+ 318  +1.30   151  Fried smelts
+ 319  +1.28   115  Philadelphia squab
+ 320  +1.26   120  Pintadon
+ 321  +1.23   118  Curried Crab Meat with Rice
+ 322  +1.21   147  Shrimp
+ 323  +1.21   122  Kopf-Salat
+ 324  +1.20   146  Broiled Salt Mackerel
+ 325  +1.15   325  Broiled Fresh Mushrooms
+ 326  +1.14   103  veal
+ 327  +1.13   339  Pickled lamb's tongue
+ 328  +1.11   127  Curried Lobster
+ 329  +1.10   114  Small tenderloin steak
+ 330  +1.10   159  Curried Chicken with Rice
+ 331  +1.10   106  Vegetables
+ 332  +1.09   653  SLICED CUCUMBERS
+ 333  +1.08   159  Beef
+ 334  +1.07   230  Bluefish
+ 335  +1.07   207  Extra sirloin steak
+ 336  +1.07   176  Westphalia Ham
+ 337  +1.06   158  Head Cheese
+ 338  +1.06   120  Assorted Cold Cuts with Chicken
+ 339  +1.04   196  Beefsteak
+ 340  +1.04   170  Salmon Salad
+ 341  +1.03   172  Finnan Haddie
+ 342  +1.03   228  Moet & Chandon, White Seal
+ 343  +1.02   268  Broiled Spring Chicken
+ 344  +1.01   972  Sirloin Steak
+ 345  +1.00   187  Sliced Chicken
+ 346  +1.00   459  Pickled beets
+ 347  +0.98   116  Gebackene Kartoffeln
+ 348  +0.98   124  Hamburger Steak with Onions
+ 349  +0.97   115  Hafergrutze
+ 350  +0.96   119  German Asparagus
+ 351  +0.95   220  Assorted Cold Cuts
+ 352  +0.95  1369  Roast beef
+ 353  +0.94   106  Mashed yellow turnips
+ 354  +0.94   128  Lamb Chop
+ 355  +0.94   132  Cold Virginia Ham
+ 356  +0.93   287  Lobster
+ 357  +0.90   122  Carrots
+ 358  +0.88   123  Chili Sauce
+ 359  +0.88   436  Lamb
+ 360  +0.87   185  New asparagus
+ 361  +0.87   167  Boiled Bermuda Potatoes
+ 362  +0.87   381  New green peas
+ 363  +0.86   216  Boston baked beans
+ 364  +0.85   540  New Lima Beans
+ 365  +0.84   155  Boned capon
+ 366  +0.84   141  hot-house asparagus
+ 367  +0.83   287  French asparagus
+ 368  +0.83   136  Cauliflower, Polonaise
+ 369  +0.82   111  Stewed Celery
+ 370  +0.81   391  Pate de foie-gras
+ 371  +0.80   127  Small Sirloin Steak
+ 372  +0.80   109  Veal Cutlet, Plain
+ 373  +0.80   113  Moet & Chandon
+ 374  +0.80   534  Artichoke
+ 375  +0.80   166  NEW POTATOES
+ 376  +0.80   100  New asparagus, Hollandaise
+ 377  +0.79   118  Brussel Sprouts
+ 378  +0.79  1272  Sliced Tomatoes
+ 379  +0.79   380  Creamed Spinach
+ 380  +0.78   124  Wax Beans
+ 381  +0.78   482  Green Corn
+ 382  +0.78   116  Veuve Clicquot, Yellow Label
+ 383  +0.77   203  Smoked Beef Tongue
+ 384  +0.76   110  Fried fish
+ 385  +0.76   420  Turkey
+ 386  +0.74   428  Virginia Ham
+ 387  +0.74   241  Manhattan
+ 388  +0.74   288  Sirloin Steak with Mushrooms
+ 389  +0.74   148  Fried Parsnips
+ 390  +0.72   127  Apfelsinen
+ 391  +0.72   125  Beets in Butter
+ 392  +0.71   494  boiled new potatoes
+ 393  +0.70   198  Sirloin Steak with Onions
+ 394  +0.70   145  Concombres
+ 395  +0.69   255  Beef tongue
+ 396  +0.69   437  Tomatoes
+ 397  +0.69   173  Cold Lamb
+ 398  +0.69   451  Oyster Bay asparagus
+ 399  +0.69   204  Cold turkey
+ 400  +0.68   146  Anchovis
+ 401  +0.68   135  Pressed Corned Beef
+ 402  +0.67   145  Turnips
+ 403  +0.64   102  Parsley-Potatoes
+ 404  +0.64   122  Galantine of Chicken
+ 405  +0.64   237  Egg plant
+ 406  +0.63   248  Squash
+ 407  +0.63   884  New string beans
+ 408  +0.62   132  mushrooms
+ 409  +0.62   645  Chicken
+ 410  +0.62   101  mutton chop
+ 411  +0.61   103  Extra sirloin
+ 412  +0.61   780  Cold roast beef
+ 413  +0.60   171  Braised Celery
+ 414  +0.60   224  Asparagus Tips
+ 415  +0.60   277  Stuffed green peppers
+ 416  +0.59   387  French string beans
+ 417  +0.59   525  New peas
+ 418  +0.59   193  Cold Chicken
+ 419  +0.59   100  Hubbard Squash
+ 420  +0.59   885  Cauliflower
+ 421  +0.59   170  Fresh asparagus
+ 422  +0.58   226  Pork and beans
+ 423  +0.58   645  Tenderloin Steak
+ 424  +0.58   385  Tomato
+ 425  +0.58   127  Boiled Salt Mackerel
+ 426  +0.58   673  Tongue
+ 427  +0.57   260  Macaroni
+ 428  +0.57   113  Cold Boiled Ham
+ 429  +0.57   293  Yorkshire Buck
+ 430  +0.56   120  Cold Mutton
+ 431  +0.56   538  Sweet Potatoes
+ 432  +0.55   459  Beets
+ 433  +0.55   560  Asparagus
+ 434  +0.55   233  Martini
+ 435  +0.54   336  Salt mackerel
+ 436  +0.54   259  Scotch Woodcock
+ 437  +0.53   272  Cauliflower au Gratin
+ 438  +0.53   109  Sugar Corn
+ 439  +0.53   191  Potato Croquettes
+ 440  +0.53   138  Spaghetti, Italienne
+ 441  +0.52   625  Cold Ham
+ 442  +0.52   121  Chicken patties
+ 443  +0.52   582  Mutton Chops
+ 444  +0.51  1962  GREEN PEAS
+ 445  +0.51   108  OYSTER PLANT
+ 446  +0.51   520  Orange Juice
+ 447  +0.51   127  Cabbage
+ 448  +0.51   360  Cold tongue
+ 449  +0.51   379  Crab Meat salad
+ 450  +0.51   489  Bermuda potatoes
+ 451  +0.51   133  Carrots vichy
+ 452  +0.50   232  Potatoes, boiled
+ 453  +0.49   102  Assorted Cold Meats
+ 454  +0.49   337  English mutton chop
+ 455  +0.49   955  Spinach
+ 456  +0.49   136  Grape Fruit Salad
+ 457  +0.48   218  Compot.
+ 458  +0.48  1010  Boiled rice
+ 459  +0.47   213  Potatoes Parisienne
+ 460  +0.47   650  Lamb Chops
+ 461  +0.47   121  Chicken a la King
+ 462  +0.47   241  Pommery Sec
+ 463  +0.46   118  Lamb Chops (2)
+ 464  +0.46  1204  Ham
+ 465  +0.46   183  Obst.
+ 466  +0.45   164  New beets
+ 467  +0.44   670  Welsh rarebit
+ 468  +0.44   283  Stuffed tomatoes
+ 469  +0.44   138  Chicken Croquettes
+ 470  +0.43   109  New Potatoes in Cream
+ 471  +0.43   109  Tenderloin
+ 472  +0.43   210  HARICOTS VERTS
+ 473  +0.43   310  Porterhouse Steak
+ 474  +0.43   204  Salade
+ 475  +0.42   214  Stuffed Green Pepper
+ 476  +0.42   206  Baked Beans
+ 477  +0.42   288  BUTTERED BEETS
+ 478  +0.42   267  Spaghetti
+ 479  +0.42   912  Brussels Sprouts
+ 480  +0.41   156  Steamed Rice
+ 481  +0.41   122  Corn
+ 482  +0.41  2817  Mashed potatoes
+ 483  +0.41   243  Boiled Ham
+ 484  +0.40   223  Salat
+ 485  +0.40   284  Tenderloin Steak with Mushrooms
+ 486  +0.40   354  Boiled Onions
+ 487  +0.40   367  BAKED SWEET POTATOES
+ 488  +0.39  1784  String Beans
+ 489  +0.39   254  Peas
+ 490  +0.39   231  Rice
+ 491  +0.37   840  Succotash
+ 492  +0.37   352  Hamburger Steak
+ 493  +0.36   110  Veal Cutlet, breaded
+ 494  +0.35   100  Sardinen
+ 495  +0.35   151  Potatoes, Fried
+ 496  +0.35   104  NEW SPINACH
+ 497  +0.35   153  Onions
+ 498  +0.34   140  Pickled Oysters
+ 499  +0.33   229  Potatoes, mashed
+ 500  +0.33   107  Asparagus on Toast
+ 501  +0.32   182  Radieschen
+ 502  +0.32   175  Lettuce and Tomatoes
+ 503  +0.32   120  Cracked Wheat
+ 504  +0.32   397  Mashed Turnips
+ 505  +0.31   114  Cauliflower, Hollandaise
+ 506  +0.31   121  Sauerkraut
+ 507  +0.31   193  liver and bacon
+ 508  +0.31   135  Flageolets
+ 509  +0.31   876  Corned beef
+ 510  +0.31   325  Stuffed Tomato
+ 511  +0.30   129  Hamburg steak
+ 512  +0.30   101  Fried Oyster Plant
+ 513  +0.30   119  Spaghetti a l'Italienne
+ 514  +0.30   127  Buttered new beets
+ 515  +0.29  1408  Lima beans
+ 516  +0.29   227  Ox Tongue
+ 517  +0.28   104  Rolled Oats
+ 518  +0.28   132  Petits pois
+ 519  +0.28   289  Boiled Sweet Potatoes
+ 520  +0.26   457  Golden buck
+ 521  +0.25   415  Cold Corned Beef
+ 522  +0.25   128  Asparagus salad
+ 523  +0.25  1782  Lobster salad
+ 524  +0.25   396  Pork Chops
+ 525  +0.24   135  Stewed Mushrooms
+ 526  +0.24   668  Stewed Corn
+ 527  +0.24  1207  French peas
+ 528  +0.24   125  Egg Salad
+ 529  +0.24   147  Kartoffel salat
+ 530  +0.23  1584  Stewed tomatoes
+ 531  +0.23   534  Bacon and eggs
+ 532  +0.23   169  Porterhouse steak with mushrooms
+ 533  +0.23   448  Oatmeal
+ 534  +0.23   246  G. H. Mumm's Extra Dry
+ 535  +0.22   143  California Artichoke
+ 536  +0.22   182  cole slaw
+ 537  +0.22   400  Hominy
+ 538  +0.21   122  Crab Salad
+ 539  +0.20   181  Fresh String Beans
+ 540  +0.20   215  Broccoli
+ 541  +0.20  2083  Chicken salad
+ 542  +0.18   127  Bacardi Cocktail
+ 543  +0.18   108  Smoked Ham
+ 544  +0.18   105  Chateaubriand
+ 545  +0.18   110  Potatoes, stewed
+ 546  +0.17  2311  Boiled potatoes
+ 547  +0.17   167  Leberwurst
+ 548  +0.17   111  Corned Beef Hash with Poached Egg
+ 549  +0.16   121  Veal Cutlet
+ 550  +0.15   103  Mexican Slaw
+ 551  +0.15   196  Fried onions
+ 552  +0.15   150  Fish cakes
+ 553  +0.13   788  Club sandwich
+ 554  +0.12   126  Potatoes--Boiled
+ 555  +0.12   225  Kippered Herring
+ 556  +0.12   125  Potatoes, Saratoga
+ 557  +0.11   917  Fried Egg Plant
+ 558  +0.11   175  Potatoes, julienne
+ 559  +0.11   650  Ham and eggs
+ 560  +0.10   157  Potato
+ 561  +0.10   114  Two boiled eggs
+ 562  +0.10   381  Calf's Liver and Bacon
+ 563  +0.09   192  Potatoes, baked
+ 564  +0.08   125  Cook's Imperial
+ 565  +0.08   590  Shrimp Salad
+ 566  +0.08   157  Daiquiri
+ 567  +0.07   101  MAYONNAISE OF CHICKEN
+ 568  +0.07   150  Potatoes Julienne
+ 569  +0.07   173  SALADE DE SAISON
+ 570  +0.06   105  Potatoes, hashed browned
+ 571  +0.05   343  Hot roast beef sandwich
+ 572  +0.05   942  Lettuce
+ 573  +0.05   114  Asparagus Tip Salad
+ 574  +0.04   114  Moet & Chandon White Seal
+ 575  +0.04   114  Mettwurst
+ 576  +0.02   145  Sliced onions
+ 577  +0.01   512  Sauterne
+ 578  -0.00   149  Parisienne Potatoes
+ 579  -0.00   738  COMBINATION SALAD
+ 580  -0.00   101  Sorbet
+ 581  -0.01  1305  Baked Potatoes
+ 582  -0.02   275  BAKED IDAHO POTATO
+ 583  -0.02   103  Scrambled Eggs with Ham
+ 584  -0.03   136  Potatoes, au gratin
+ 585  -0.03   121  Potatoes Saute
+ 586  -0.03   298  Potatoes
+ 587  -0.04   103  Two Fried Eggs
+ 588  -0.04   343  St. Julien
+ 589  -0.05   100  Sugar Cured Ham
+ 590  -0.05   109  Potatoes in Cream
+ 591  -0.05   318  Baked Potato
+ 592  -0.05   114  Haricots de Lima
+ 593  -0.05   110  Omelet with ham
+ 594  -0.05   185  Spanish omelet
+ 595  -0.06   166  Mixed Salad
+ 596  -0.06   233  Potatoes, French fried
+ 597  -0.07   167  Lettuce and Tomato
+ 598  -0.07   196  Nachtisch.
+ 599  -0.07   159  Macedoine salad
+ 600  -0.07   232  Caviar sandwich
+ 601  -0.07   636  Broiled Ham
+ 602  -0.07   544  Waldorf Salad
+ 603  -0.08   253  Chicory
+ 604  -0.08   228  Smoked beef
+ 605  -0.09   170  Chicken Salad Sandwich
+ 606  -0.09   119  Potatoes, Hashed in cream
+ 607  -0.09   189  Alligator Pear
+ 608  -0.09   108  Potatoes, Saute
+ 609  -0.09  1473  Potato salad
+ 610  -0.10   677  fried Sweet Potatoes
+ 611  -0.11   148  Lettuce and Tomato Sandwich
+ 612  -0.11  1118  Cucumber salad
+ 613  -0.12   114  Giant peeled asparagus
+ 614  -0.12   303  Escarole
+ 615  -0.12   120  Creamed Potatoes
+ 616  -0.13   123  endive
+ 617  -0.13   213  Codfish Cakes
+ 618  -0.13   201  Medoc
+ 619  -0.13   315  Broiled Bacon
+ 620  -0.14   719  Ham Sandwich
+ 621  -0.14   135  Chiffonade
+ 622  -0.14   218  Grape Nuts
+ 623  -0.14   407  Alligator Pear Salad
+ 624  -0.14   716  Chicken Sandwich
+ 625  -0.15   102  " au gratin
+ 626  -0.15   235  Potatoes, lyonnaise
+ 627  -0.15   596  Tongue Sandwich
+ 628  -0.16   773  Lettuce and Tomato Salad
+ 629  -0.16   373  Spinach with egg
+ 630  -0.16   157  Eggs, boiled
+ 631  -0.17   178  Graves
+ 632  -0.17   446  Chiffonade Salad
+ 633  -0.17   125  Old Fashioned
+ 634  -0.17   408  Saute Potatoes
+ 635  -0.17   267  Fresh Vegetable Salad
+ 636  -0.17   103  Parsley Omelette
+ 637  -0.18   315  Corn fritters
+ 638  -0.18   136  New cauliflower
+ 639  -0.18   254  Fried Ham
+ 640  -0.18   253  Au Gratin Potatoes
+ 641  -0.18   122  Salade de laitue
+ 642  -0.18   149  St. Estephe
+ 643  -0.19   489  Cold Slaw
+ 644  -0.19   354  Candied Sweet Potatoes
+ 645  -0.19   348  Cucumber
+ 646  -0.19   184  Mixed Green Salad
+ 647  -0.19   108  Chiffonnade salad
+ 648  -0.20   108  Potatoes sautees
+ 649  -0.20   796  Escarole Salad
+ 650  -0.20   297  Hearts of lettuce salad
+ 651  -0.20   139  Potatoes O'Brien
+ 652  -0.20   550  Fried Eggs
+ 653  -0.20   481  Macaroni au gratin
+ 654  -0.21   226  Dandelion Salad
+ 655  -0.21   133  Eggs, shirred
+ 656  -0.21   151  Cheese Omelette
+ 657  -0.21   267  Baked apples
+ 658  -0.21   568  Scrambled Eggs
+ 659  -0.21   176  Omelet, plain
+ 660  -0.22   172  Eggs, Scrambled
+ 661  -0.22   144  Crab flake salad
+ 662  -0.22   529  Watercress Salad
+ 663  -0.23  1978  Lettuce Salad
+ 664  -0.23   189  half grape fruit
+ 665  -0.23   103  Rostbraten
+ 666  -0.23   726  Chicory Salad
+ 667  -0.23   114  Sweet Potatoes, Fried
+ 668  -0.24   336  Swiss cheese sandwich
+ 669  -0.24   230  Shredded Wheat
+ 670  -0.24   107  Turkey Sandwich
+ 671  -0.25   670  Corned Beef Hash
+ 672  -0.25   144  Champagne Cocktail
+ 673  -0.26   258  Hearts of Lettuce
+ 674  -0.26   155  Bologna Sausage.
+ 675  -0.26   302  Romaine
+ 676  -0.26   224  Sauternes
+ 677  -0.26   393  FRESH FRUIT SALAD
+ 678  -0.27   199  American Cheese Sandwich
+ 679  -0.27   343  Roast Beef Sandwich
+ 680  -0.27   109  Omelette with parsley
+ 681  -0.27   170  Ham Omelet
+ 682  -0.28   125  Fresh Spinach
+ 683  -0.28   409  Saratoga Chips
+ 684  -0.28   119  Cherry tomatoes
+ 685  -0.28   246  Omelette, plain
+ 686  -0.29   144  Liver-sausage
+ 687  -0.29   384  Spaghetti au Gratin
+ 688  -0.29   526  Endive Salad
+ 689  -0.29  1176  Tomato Salad
+ 690  -0.29   178  Eggs, fried
+ 691  -0.29   105  Margaux
+ 692  -0.30   353  Watercress
+ 693  -0.30   330  Poached Eggs on Toast
+ 694  -0.31   450  Sardine Sandwich
+ 695  -0.32   218  Plain Omelet
+ 696  -0.32  1514  French fried potatoes
+ 697  -0.33   195  German fried potatoes
+ 698  -0.33   601  Celery Salad
+ 699  -0.34  1001  Romaine Salad
+ 700  -0.34   271  Mayonnaise
+ 701  -0.35   337  Spanish omelette
+ 702  -0.35   105  Gekochte Kartoffeln
+ 703  -0.35   554  Boiled eggs
+ 704  -0.36   137  Fried egg sandwich
+ 705  -0.36   146  Omelette with Ham
+ 706  -0.36   135  Chicken Livers en Brochette
+ 707  -0.36   120  Anchovy toast
+ 708  -0.36   162  Vegetable Salad
+ 709  -0.37   100  Omelette with cheese
+ 710  -0.38   246  Saratoga Potatoes
+ 711  -0.38   240  Potatoes hashed in cream
+ 712  -0.38   110  Cream of Wheat
+ 713  -0.39   365  Julienne potatoes
+ 714  -0.39   235  Roquefort Dressing
+ 715  -0.40   161  Roastbeef
+ 716  -0.40   135  Mushroom Omelette
+ 717  -0.41   103  Ham and Egg Sandwich
+ 718  -0.41   183  Grilled sweet potatoes
+ 719  -0.41   308  Mayonnaise dressing
+ 720  -0.42   293  Plain Omelette
+ 721  -0.42   194  Haut-Sauterne
+ 722  -0.43   390  Russian Dressing
+ 723  -0.43   145  Rice and milk
+ 724  -0.43   570  Fried Potatoes
+ 725  -0.44   108  Fresh Pineapple
+ 726  -0.44   147  Fried Bacon
+ 727  -0.44   290  bacon
+ 728  -0.46   183  Fruit in Season
+ 729  -0.46   135  Hearts of Romaine Salad
+ 730  -0.46   151  Tomato Omelette
+ 731  -0.46   196  Breakfast Bacon
+ 732  -0.46   696  Fruit salad
+ 733  -0.47   311  Pontet Canet
+ 734  -0.47   148  Chef's Salad
+ 735  -0.47   344  Corned beef sandwich
+ 736  -0.48   101  Potatoes---French Fried
+ 737  -0.50   145  Brawn
+ 738  -0.50   290  Poached eggs
+ 739  -0.51   594  Potatoes au Gratin
+ 740  -0.51   215  Ham omelette
+ 741  -0.51   722  Lyonnaise Potatoes
+ 742  -0.51   287  Hashed Brown Potatoes
+ 743  -0.52   151  Melon in Season
+ 744  -0.52   126  Oyster Sandwich
+ 745  -0.52   368  Shirred Eggs
+ 746  -0.52   116  Omelette with mushrooms
+ 747  -0.53   311  Potatoes Lyonnaise
+ 748  -0.53   198  Stewed potatoes
+ 749  -0.54   136  Roquefort Cheese Dressing
+ 750  -0.55   151  Jelly omelette
+ 751  -0.55   127  Chicken hash
+ 752  -0.55   225  Heart of Lettuce Salad
+ 753  -0.56   122  MELBA TOAST
+ 754  -0.56   135  Fetticus and beets salad
+ 755  -0.57   159  RUM
+ 756  -0.58   115  Side Car
+ 757  -0.59   212  Cranberry Sauce
+ 758  -0.59   107  Beets Saute in Butter
+ 759  -0.59   489  Grapefruit
+ 760  -0.60   266  Eggs to order
+ 761  -0.60   186  Boiled onions, cream sauce
+ 762  -0.61   117  Bronx Cocktail
+ 763  -0.61   127  Cold Roast Beef Sandwich
+ 764  -0.62   101  Stewed Prunes with cream
+ 765  -0.63   100  Whole orange
+ 766  -0.63   497  Salad
+ 767  -0.63   118  Omelette with tomatoes
+ 768  -0.64   109  Carrots Saute
+ 769  -0.64   212  Laubenheimer
+ 770  -0.65   108  Puffed rice
+ 771  -0.65   131  Country Sausage
+ 772  -0.65   358  FRESH FRUIT
+ 773  -0.67   456  Hashed browned potatoes
+ 774  -0.67   350  FRENCH DRESSING
+ 775  -0.67   178  GRAHAM ROLLS
+ 776  -0.68   109  Baked Apple and Cream
+ 777  -0.68   124  Veal Cutlets
+ 778  -0.68   105  Fried Mush
+ 779  -0.68   104  Stewed Apricots
+ 780  -0.69   227  French rolls
+ 781  -0.70   177  Butter
+ 782  -0.72   208  Hochheimer
+ 783  -0.72   120  Sweet Potatoes, Southern Style
+ 784  -0.73   216  Haut Sauternes
+ 785  -0.73   176  Cheese and Crackers
+ 786  -0.75   180  oatmeal with cream
+ 787  -0.77   423  Almonds
+ 788  -0.77   165  Grape Juice
+ 789  -0.77   292  Amontillado
+ 790  -0.78   108  Potatoes Baked
+ 791  -0.78   177  German Pancake
+ 792  -0.79   234  Petit Fours
+ 793  -0.79   933  Grape fruit
+ 794  -0.79   104  Allgauer Cheese
+ 795  -0.80   111  Peaches and cream
+ 796  -0.80   110  Boned capon aux truffes
+ 797  -0.81   191  Crackers and Milk
+ 798  -0.82   123  Omelette au rhum
+ 799  -0.82   154  country sausages
+ 800  -0.82   233  Cheese Sandwich
+ 801  -0.83   166  Rudesheimer
+ 802  -0.83   124  Small pastry
+ 803  -0.83   275  Niersteiner
+ 804  -0.84   119  Force
+ 805  -0.84   225  Fried hominy
+ 806  -0.85   104  Champagne Jelly
+ 807  -0.86   112  Fried Ham Sandwich
+ 808  -0.87   252  Sliced Orange
+ 809  -0.88   231  Potatoes stewed in Cream
+ 810  -0.89   105  Lamb Hash
+ 811  -0.90   117  Stinger
+ 812  -0.91   180  French pancake
+ 813  -0.93   179  Spaghetti Italienne
+ 814  -0.93   124  Baked Apples and Cream
+ 815  -0.93   120  Zeltinger
+ 816  -0.94   868  Apple Sauce
+ 817  -0.94   128  Egg Sandwich
+ 818  -0.95   216  Rice Cakes
+ 819  -0.97   345  Buckwheat Cakes
+ 820  -0.98   179  Hot mince pie
+ 821  -0.99   110  Chateau Yquem
+ 822  -1.00   108  Mignardises
+ 823  -1.00   218  Thousand Island Dressing
+ 824  -1.00   116  BREAD
+ 825  -1.00   302  Dutch cheese
+ 826  -1.02   417  Canadian Cheese
+ 827  -1.03   135  Griddle cakes
+ 828  -1.04   138  Apple Fritters
+ 829  -1.04   345  Sherry
+ 830  -1.06   194  Cheese Cake
+ 831  -1.06   168  Manhattan Cocktail
+ 832  -1.07   127  Sorbet au Kirsch
+ 833  -1.07   181  Liebfraumilch
+ 834  -1.07   309  Preserves
+ 835  -1.08   154  Swiss Cream Cheese
+ 836  -1.09   144  Corn Flakes
+ 837  -1.09   115  Beaune
+ 838  -1.10   197  Wheat Cakes
+ 839  -1.10   136  Fruits in Season
+ 840  -1.12   126  Chianti
+ 841  -1.12   119  Assorted fancy cakes
+ 842  -1.12   104  Brandy
+ 843  -1.14   141  Cocktails
+ 844  -1.15   163  Boston Cream Pie
+ 845  -1.16   223  Sponge Cake
+ 846  -1.17   102  Vanilla Cup Custard
+ 847  -1.18   103  Spaghetti milanaise
+ 848  -1.18   298  Corn bread
+ 849  -1.18   167  Fancy Ice Cream
+ 850  -1.18  1347  Oranges
+ 851  -1.19   383  Honey Dew Melon
+ 852  -1.19  1055  Petits fours
+ 853  -1.20   109  Grape Nuts with Cream
+ 854  -1.20   142  Waffles
+ 855  -1.20   830  rice pudding
+ 856  -1.21  1648  Stewed prunes
+ 857  -1.21   676  Kaffee
+ 858  -1.22   237  Boston Brown Bread
+ 859  -1.23   135  English Muffins
+ 860  -1.23   310  Sliced pineapple
+ 861  -1.23   120  Amontillado Sherry
+ 862  -1.23   210  Port salut cheese
+ 863  -1.24   689  Pumpkin Pie
+ 864  -1.24   107  Grapefruit (Half)
+ 865  -1.24  1720  Apple Pie
+ 866  -1.24   194  Martini Cocktail
+ 867  -1.25   131  Vienna Rolls
+ 868  -1.26   142  Baked apples with cream
+ 869  -1.27   185  Rye Bread
+ 870  -1.27   559  Cantaloupe
+ 871  -1.27   109  Crullers
+ 872  -1.28   525  Orange marmalade
+ 873  -1.28   714  French Pastry
+ 874  -1.29   197  BLUEBERRY PIE
+ 875  -1.29   225  Chocolate Eclairs
+ 876  -1.30   120  Sparkling Moselle
+ 877  -1.30   205  Dipped Toast
+ 878  -1.30   700  Mince Pie
+ 879  -1.31   206  CHAMPAGNE
+ 880  -1.31   107  Macon
+ 881  -1.31   193  Strawberry jam
+ 882  -1.31   356  Strawberry short cake
+ 883  -1.31   163  French Toast
+ 884  -1.31   830  Milk toast
+ 885  -1.31   236  Pommard
+ 886  -1.32   253  Chocolate eclair
+ 887  -1.32   300  cocoanut pie
+ 888  -1.32   357  Custard Pie
+ 889  -1.33   892  Charlotte Russe
+ 890  -1.33   202  Chablis
+ 891  -1.33   319  Corn muffins
+ 892  -1.33  1883  Fruit
+ 893  -1.34   147  Corn Cakes
+ 894  -1.34   509  Lady fingers
+ 895  -1.35   373  Currant Jelly
+ 896  -1.35   160  Old Fashioned Strawberry Short Cake
+ 897  -1.35   186  Raspberry jam
+ 898  -1.35   656  Baked Apple
+ 899  -1.35   145  pineapple sherbet
+ 900  -1.36   372  lemon meringue pie
+ 901  -1.36   248  Strawberry shortcake
+ 902  -1.36   724  Dry Toast
+ 903  -1.37   262  Caramel custard
+ 904  -1.39   283  Thee
+ 905  -1.39   252  Fancy Cakes
+ 906  -1.40   110  Strawberry tartlet
+ 907  -1.40   410  Green Apple Pie
+ 908  -1.40   306  Guava jelly
+ 909  -1.40   271  Danish Pastry
+ 910  -1.41   221  Eclair
+ 911  -1.41   579  Peach Pie
+ 912  -1.42   298  Port Salut
+ 913  -1.43   170  lemon pie
+ 914  -1.43   209  Raspberry sherbet
+ 915  -1.43   335  PORT
+ 916  -1.43   571  Buttered toast
+ 917  -1.44   375  Graham bread
+ 918  -1.44   165  Figs in syrup
+ 919  -1.45   299  Fruit Cake
+ 920  -1.45   652  Macaroons
+ 921  -1.45   115  Oatmeal and milk
+ 922  -1.45   174  Pont l'Eveque
+ 923  -1.46   353  Stewed rhubarb
+ 924  -1.46   171  Old fashioned rice pudding
+ 925  -1.46   399  Raisin cake
+ 926  -1.46   582  Cream toast
+ 927  -1.46   133  Blackberry Pie
+ 928  -1.47   215  Cherry Pie
+ 929  -1.47   119  Bonbons
+ 930  -1.47   532  Pound cake
+ 931  -1.48   214  Tapioca Pudding
+ 932  -1.48   117  Jamaica Rum
+ 933  -1.48   108  Plymouth Gin
+ 934  -1.49   182  COCOANUT CUSTARD PIE
+ 935  -1.51  1157  Bananas
+ 936  -1.51   133  Cabinet Pudding
+ 937  -1.51   118  Coffee Cake
+ 938  -1.51   220  Chartreuse, Yellow
+ 939  -1.52  1121  Apples
+ 940  -1.53   177  Mumm's Extra Dry
+ 941  -1.53   160  Chocolate Layer Cake
+ 942  -1.54   206  Chambertin
+ 943  -1.54   230  Gervais Cheese with Individual Bar le Duc
+ 944  -1.55   193  Lemon Sherbet
+ 945  -1.56   145  Eclairs
+ 946  -1.56   141  Coupe St. Jacques
+ 947  -1.57   299  French bread
+ 948  -1.57   306  rhubarb pie
+ 949  -1.57   330  peaches
+ 950  -1.58   223  PRUNES
+ 951  -1.59   241  Pie a la Mode
+ 952  -1.59   154  Stewed fresh rhubarb
+ 953  -1.59   159  Vienna Bread
+ 954  -1.60   272  APRICOT PIE
+ 955  -1.60   184  Dubonnet
+ 956  -1.60   113  Holland Gin
+ 957  -1.60   247  Cold rice pudding
+ 958  -1.61   221  orange sherbet
+ 959  -1.61  1011  ASSORTED CAKE
+ 960  -1.61   115  BURGUNDY
+ 961  -1.61   105  Layer Cake
+ 962  -1.62   382  Rolls
+ 963  -1.62  1045  Cup Custard
+ 964  -1.62   200  Cherries
+ 965  -1.63   222  Sliced Bananas and Cream
+ 966  -1.64   741  Watermelon
+ 967  -1.64   177  MUFFINS
+ 968  -1.65   101  Walnuts
+ 969  -1.65   349  Cake
+ 970  -1.65   100  Preserved Cherries
+ 971  -1.66   103  Blackberry Brandy
+ 972  -1.66   139  Strained honey
+ 973  -1.67   120  Pies
+ 974  -1.68   207  PASTRY
+ 975  -1.68   589  Pears
+ 976  -1.68   439  Meringue glacee
+ 977  -1.68   293  Preserved figs
+ 978  -1.68   106  Guinness' Stout
+ 979  -1.69   606  Marmalade
+ 980  -1.69   402  Strawberries and Cream
+ 981  -1.70   137  Old Tom Gin
+ 982  -1.70   119  Vanilla Custard Pie
+ 983  -1.70  1181  Ice cream
+ 984  -1.71   130  Assorted Pastry
+ 985  -1.71   195  Whiskey Sour
+ 986  -1.71   273  fresh strawberry ice cream
+ 987  -1.72   132  Gateaux Assortis
+ 988  -1.72   106  Zwieback
+ 989  -1.72   159  Marmelade
+ 990  -1.74   112  Filberts
+ 991  -1.75   252  Wine Jelly
+ 992  -1.75   190  Preserved Peaches
+ 993  -1.76   103  Vienna Pastry
+ 994  -1.76   143  Seedless Grapes
+ 995  -1.77   162  Pear pie
+ 996  -1.77   518  Gruyere
+ 997  -1.77   222  Fromage
+ 998  -1.77   225  Pistachio Ice Cream
+ 999  -1.77   118  Pie
+1000  -1.77   114  Caffee
+1001  -1.78   142  Fresh stewed apples
+1002  -1.79   113  Fruit Jello
+1003  -1.79   288  Sliced Peaches
+1004  -1.79   146  Lemon ice cream
+1005  -1.79   160  Chartreuse, green
+1006  -1.80   105  Poncire
+1007  -1.80   102  Nectarines
+1008  -1.81   103  White Bread
+1009  -1.81   133  Biscuits
+1010  -1.81   147  Gin Fizz
+1011  -1.81   164  Canadian Club
+1012  -1.82   223  Claret
+1013  -1.83   396  Gruyere Cheese
+1014  -1.84   218  Sherbet
+1015  -1.85   197  Baba au rhum
+1016  -1.85   322  Fruchte.
+1017  -1.85   193  Apricot Brandy
+1018  -1.86   547  Malaga grapes
+1019  -1.87   202  Delaware Grapes
+1020  -1.87   105  Gin Rickey
+1021  -1.88   256  Liederkranz
+1022  -1.88   669  Roman Punch
+1023  -1.89   478  Plums
+1024  -1.89   377  Toast
+1025  -1.89   101  Fruit Jelly
+1026  -1.89   185  Tom Collins
+1027  -1.89   356  Biscuit Glace
+1028  -1.89   311  Strawberries
+1029  -1.90   160  Strawberries with cream
+1030  -1.90   112  Sloe Gin
+1031  -1.91   229  Apricots
+1032  -1.92   357  Cakes
+1033  -1.92   285  Sliced bananas with cream
+1034  -1.92   277  Curacao
+1035  -1.92   296  Anisette
+1036  -1.93   132  Comice Pear
+1037  -1.93   809  Fruits
+1038  -1.93   100  Sloe Gin Fizz
+1039  -1.93   143  Maple Syrup
+1040  -1.93   249  Jam
+1041  -1.94   120  Wafers
+1042  -1.95   104  Preserved Pears
+1043  -1.96   209  Concord Grapes
+1044  -1.97   390  ENGLISH BREAKFAST TEA
+1045  -1.99   208  Blackberries
+1046  -1.99   126  Lalla Rookh
+1047  -2.00   144  Brandy peaches
+1048  -2.01   150  Graham Wafers
+1049  -2.03   145  Pineapple Pie
+1050  -2.04   586  Benedictine
+1051  -2.04  2071  Assorted cakes
+1052  -2.04   322  Oolong Tea
+1053  -2.04   393  Hot Rolls
+1054  -2.05   248  Raspberries
+1055  -2.05   355  Lemon Ice
+1056  -2.05  1468  Chocolate Ice Cream
+1057  -2.06   349  Tokay Grapes
+1058  -2.07   167  Fresh strawberries and cream
+1059  -2.07   201  Orange ice
+1060  -2.07   168  Gervais
+1061  -2.08   170  Niagara Grapes
+1062  -2.08   163  Glass of milk
+1063  -2.09   108  Poires
+1064  -2.10   137  Raspberry Ice
+1065  -2.11  1035  STRAWBERRY ICE CREAM
+1066  -2.11   257  Kummel
+1067  -2.12   107  Rahm Kase
+1068  -2.12   236  Sliced Bananas
+1069  -2.12   156  Creme de Cacao
+1070  -2.13   191  Blueberries
+1071  -2.13   236  GREEN TEA
+1072  -2.13   270  Stilton
+1073  -2.13   314  Casaba Melon
+1074  -2.13   905  Orange
+1075  -2.14   222  Sickel Pears
+1076  -2.14   227  Fresh figs
+1077  -2.15   298  Kase.
+1078  -2.15   109  St. Croix Rum
+1079  -2.15   108  Banana
+1080  -2.15   312  Tutti-frutti ice cream
+1081  -2.15   304  California Orange
+1082  -2.15   272  Absinthe
+1083  -2.16  2175  Vanilla ice cream
+1084  -2.16   108  Silver Fizz
+1085  -2.16   244  French vanilla ice cream
+1086  -2.17   621  Baked Apple with Cream
+1087  -2.18   107  Delicious Apple
+1088  -2.18   657  Nesselrode Pudding
+1089  -2.19   467  Neufchatel cheese
+1090  -2.19   113  GREEN APPLE PIE A la Mode
+1091  -2.20   902  Grapes
+1092  -2.21   177  Budweiser
+1093  -2.21   525  Edam
+1094  -2.22   139  FRENCH ICE CREAM
+1095  -2.22   294  Pineapple
+1096  -2.22   741  Coffee Ice Cream
+1097  -2.23   101  Sherry Flip
+1098  -2.23   435  Cottage Cheese
+1099  -2.23   373  Stilton Cheese
+1100  -2.23   670  Neapolitan ice cream
+1101  -2.24   423  Maraschino
+1102  -2.24   305  Meringue Glace
+1103  -2.25   129  Chocolate Sundae
+1104  -2.25   934  Biscuit Tortoni
+1105  -2.28   270  Fresh Strawberries
+1106  -2.28   485  Neufchatel
+1107  -2.29   467  Figs
+1108  -2.29   284  Dates
+1109  -2.30   600  Brie
+1110  -2.30  1521  Cheese
+1111  -2.30   115  Macaroon glace
+1112  -2.31   117  Edamer Kase
+1113  -2.32   188  Bartlett pear
+1114  -2.32   172  Assorted Fruit
+1115  -2.34   225  Friandises
+1116  -2.35   300  Bar-le-Duc
+1117  -2.35   506  Gorgonzola
+1118  -2.35   234  Chartreuse
+1119  -2.36   203  Pont l'Eveque cheese
+1120  -2.38  1387  Roquefort
+1121  -2.39   130  Claret Punch
+1122  -2.39   574  Lemon water ice
+1123  -2.40   918  Raisins
+1124  -2.40   256  Sliced Oranges
+1125  -2.40   202  Kirschwasser
+1126  -2.41   534  Nuts
+1127  -2.42  1152  Cream Cheese
+1128  -2.42   194  Baked Alaska
+1129  -2.43   490  Mixed ice cream
+1130  -2.43   342  Tutti frutti
+1131  -2.44   143  Vermouth, Italian
+1132  -2.46   393  Brie cheese
+1133  -2.47   326  Cream
+1134  -2.47   130  Cointreau
+1135  -2.48   162  Bar-le-Duc Jelly
+1136  -2.48   475  Creme de Menthe
+1137  -2.48   137  Clysmic
+1138  -2.49   139  Grand Marnier
+1139  -2.50   285  Port du Salut
+1140  -2.50   258  Tangerines
+1141  -2.51   218  MILK, PER GLASS
+1142  -2.52   135  Schweizer Käse
+1143  -2.53   233  MIXED NUTS
+1144  -2.54   412  Lemonade
+1145  -2.54   498  Liederkranz Cheese
+1146  -2.56   100  Champagne Cider
+1147  -2.56  1095  Swiss cheese
+1148  -2.57   305  Honey
+1149  -2.57   133  Club Soda
+1150  -2.58   195  Assorted cheese
+1151  -2.60   492  Orange Water Ice
+1152  -2.60   178  Neapolitan
+1153  -2.60   434  Pistache ice cream
+1154  -2.62   416  Raspberry Water Ice
+1155  -2.63   722  Dessert
+1156  -2.63   218  Stewed pears
+1157  -2.63   567  apple
+1158  -2.64   137  Cognac
+1159  -2.65   155  Assorted Nuts
+1160  -2.65  1121  Edam Cheese
+1161  -2.65  1213  Camembert
+1162  -2.65   661  Peach Melba
+1163  -2.66   293  Sliced Fresh Pineapple
+1164  -2.68  1846  ROQUEFORT CHEESE
+1165  -2.69   159  Assorted Fresh Fruit
+1166  -2.69   573  Pear
+1167  -2.69   190  Pousse Cafe
+1168  -2.70   296  Peach Short Cake
+1169  -2.71   126  Cream, per glass
+1170  -2.71  1374  Chocolate
+1171  -2.71   178  Lemon Soda
+1172  -2.72  1749  Milk
+1173  -2.75   149  coffee, per cup
+1174  -2.75   241  Vermouth
+1175  -2.77   133  Tea Biscuits
+1176  -2.78   112  Hunyadi Janos
+1177  -2.78   194  Seltzer
+1178  -2.81   209  American
+1179  -2.81   956  Crackers
+1180  -2.83   192  Sarsaparilla
+1181  -2.83  1503  Cocoa
+1182  -2.83   127  Stewed Plums
+1183  -2.86  7464  Coffee
+1184  -2.86   433  Ginger Ale
+1185  -2.87   329  Congress Water
+1186  -2.88   333  toasted crackers
+1187  -2.89  1034  CAMEMBERT CHEESE
+1188  -2.90   225  Pear "au feu d'Enfer"
+1189  -2.91   107  Bent's Crackers
+1190  -2.91  3935  Tea
+1191  -2.92   246  PINEAPPLE WATER ICE
+1192  -2.92   102  Sorbet Creme de Menthe
+1193  -2.93   106  Cocoa, per cup
+1194  -2.96   178  Stewed Strawberries
+1195  -2.97  1803  AMERICAN CHEESE
+1196  -2.97   110  Orangeade
+1197  -2.98   146  Pineapple Cheese
+1198  -2.98   221  Philadelphia Cream Cheese
+1199  -2.99  1118  CAFE
+1200  -3.00   109  Princess Pear
+1201  -3.02   123  Bread Pudding
+1202  -3.04   455  Gorgonzola Cheese
+1203  -3.05   175  Bent's Water Crackers
+1204  -3.07   232  Apricot Water Ice
+1205  -3.07   145  Hickoryisques
+1206  -3.07   198  Swiss
+1207  -3.09   232  Imported Swiss cheese
+1208  -3.09   113  Chocolate, per cup
+1209  -3.09   570  White Rock
+1210  -3.10   184  Nuts and Raisins
+1211  -3.11   805  Cafe Parfait
+1212  -3.12   142  Grape Fruit, half
+1213  -3.12   149  Chestnut Plombiere
+1214  -3.20   384  Port du Salut cheese
+1215  -3.20   249  Bel Paese Cheese
+1216  -3.24   135  Water Crackers
+1217  -3.26   290  Stuffed Figs and Dates
+1218  -3.27   209  Coca-Cola
+1219  -3.27   308  Chocolate Parfait
+1220  -3.30   138  Plain Lemonade
+1221  -3.31   187  Cheddar Cheese
+1222  -3.31   144  Cherry Jubilee
+1223  -3.31   117  Moka
+1224  -3.33   322  Preserved Skinless Figs
+1225  -3.39   191  Pot of Tea
+1226  -3.40   154  Pot of coffee
+1227  -3.45   341  Peach Ice Cream
+1228  -3.46   153  Coffee, Pot
+1229  -3.48   237  Fancy Ices
+1230  -3.53   116  Perrier
+1231  -3.53   404  Ices in Souvenir
+1232  -3.66   108  Apenta
+1233  -3.66   206  Coffee, per pot
+1234  -3.69   189  Soda
+1235  -3.70   115  Malted Milk
+1236  -3.71   265  Apollinaris Water
+1237  -3.73   184  Hot Chocolate
+1238  -3.75   132  Tea, Pot
+1239  -3.79   179  Fresh milk
+1240  -3.83   795  Buttermilk
+1241  -3.83   732  Cigarettes
+1242  -3.83   357  Postum
+1243  -3.90   185  Poland Water,
+1244  -3.92   133  SANKA COFFEE
+1245  -3.94   136  Bromo Seltzer
+1246  -4.00   345  Horlick's Malted Milk
+1247  -4.05   200  Tea, per pot
+1248  -4.13   110  Swiss Gruyere cheese
+1249  -4.18   105  Ovaltine
+1250  -4.19   257  Instant Postum
+1251  -4.24   412  LIQUEURS.
+1252  -4.24   284  Coffee with Cream
+1253  -4.25   121  Fancy ice
+1254  -4.27  1928  Demi-tasse
+1255  -4.29   408  Sanka
+1256  -4.33  1054  Iced tea
+1257  -4.35   322  Kaffee-Hag
+1258  -4.37   246  Ceylon Tea
+1259  -4.39   142  Special Coffee
+1260  -4.50   119  After-Dinner Mints
+1261  -4.63   774  Cafe noir
+1262  -4.63   781  Bread and Butter
+1263  -4.64   245  Pear Melba
+1264  -4.67   730  Iced coffee
+1265  -4.90   336  Rolls and butter
+1266  -4.93  1081  Cigars
+1267  -4.94   335  Extra Special Heavy Cream
+1268  -5.06  1421  Apollinaris
+1269  -5.11   166  Cafe Turc
+1270  -5.15   122  Cocoa, Per Pot
+1271  -5.33   295  ORANGE PEKOE TEA
+1272  -5.46   752  Turkish Coffee
+1273  -5.50   484  French Coffee
+1274  -6.06   129  Bread or Rolls and Butter
+1275  -6.88   506  Johannis
